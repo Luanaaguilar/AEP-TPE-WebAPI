@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+    <title>Formulário - Aep</title>
+  </head>
+  <body>
+
+    <div id="form">
+      <form action="">
+        <h2 class="title">Cadastrar</h2>
+
+        <label for="username">Nome</label>
+        <div class="input">
+          <i class="fa fa-user-circle" aria-hidden="true"></i>
+          <input id="username" name="username" placeholder="Username" type="text">
+        </div>
+
+        <label for="cep">CEP</label>
+        <div class="input">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <input id="cep" name="cep" placeholder="CEP" type="text" maxlength="9">
+        </div>
+
+        <label for="email">E-mail</label>
+        <div class="input">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <input id="email" name="email" placeholder="E-mail" type="email">
+        </div>
+
+        <label for="senha">Senha</label>
+        <div class="input">
+          <i class="fa fa-lock" aria-hidden="true"></i>
+          <input id="senha" name="senha" placeholder="Password" type="password">
+        </div>
+
+        <div id="btn">
+          <button>Cadastrar</button>
+        </div>
+
+      </form>
+    </div>
+    
+    <script src="src/main.ts" type="module"></script>
+
+  </body>
+</html>
